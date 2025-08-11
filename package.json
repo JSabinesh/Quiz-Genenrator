@@ -1,0 +1,22 @@
+{
+  "name": "pdf-quiz-generator",
+  "version": "1.0.0",
+  "description": "A full-stack application that extracts text from PDFs and generates quizzes using Google Gemini API",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"cd backend && npm run dev\" \"cd frontend && npm start\"",
+    "install-deps": "npm install && cd backend && npm install && cd ../frontend && npm install"
+  },
+  "keywords": [
+    "pdf",
+    "quiz",
+    "generator",
+    "gemini",
+    "api"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
